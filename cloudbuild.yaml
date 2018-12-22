@@ -2,10 +2,11 @@ steps:
 - id: 'Deploy to Environment'
   name: 'gcr.io/cloud-builders/sp201812123'
   args: [
+    'gcloud'
     'app', 
     'deploy', 
     'app.yaml',
-    '--version=$BUILD_ID',
+    '--version=20181912',
     '--no-promote',
     '--quiet'
   ]
