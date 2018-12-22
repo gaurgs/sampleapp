@@ -1,6 +1,6 @@
 steps:
 - id: 'Deploy to Environment'
-  name: 'gcr.io/cloud-builders/sp201812123'
+  name: 'gcr.io/cloud-builders/gcloud'
   args: [
     'gcloud',
     'app', 
